@@ -36,7 +36,7 @@ function onGalleryClick(e) {
     const urlOriginalSizePicture = e.target.dataset.source;
         
     const instance = basicLightbox.create(
-    ` <div class="modal"> <img src="${urlOriginalSizePicture}" width="800" height="600">  </div> `,
+    ` <div class="modal"> <img src="${urlOriginalSizePicture}" width="1000" height="700">  </div> `,
     {
       onShow: () => {
         document.addEventListener("keydown", onEscapeButton);
